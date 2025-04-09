@@ -14,9 +14,9 @@ def generate_answer():
 
 def game():
     print('тут объяснить как пользоваться программой + прикрутить красивый интерфейс с шариком')
-    question = input('На какой вопрос ты хочешь получить ответ?\n')
-
-    return print(generate_answer())
+    while True:
+        question = input('На какой вопрос ты хочешь получить ответ?\n')
+        print(generate_answer())
 
 
 game()
